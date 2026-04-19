@@ -464,6 +464,9 @@
   .w-\[90\%\] {
     width: 90%;
   }
+  .w-\[100\%\] {
+    width: 100%;
+  }
   .w-\[150px\] {
     width: 150px;
   }
@@ -508,6 +511,9 @@
   }
   .w-\[400px\] {
     width: 400px;
+  }
+  .max-w-300 {
+    max-width: calc(var(--spacing) * 300);
   }
   .max-w-350 {
     max-width: calc(var(--spacing) * 350);
@@ -714,6 +720,9 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[lightgray\] {
+    border-color: lightgray;
+  }
   .bg-\[\#061B3A\] {
     background-color: #061B3A;
   }
@@ -879,6 +888,9 @@
   .p-\[25px_20px_\] {
     padding: 25px 20px ;
   }
+  .p-\[30px_10px_30px_30px\] {
+    padding: 30px 10px 30px 30px;
+  }
   .p-\[50px_2px\] {
     padding: 50px 2px;
   }
@@ -893,6 +905,9 @@
   }
   .p-\[q5px_20px\] {
     padding: q5px 20px;
+  }
+  .py-\[30px\] {
+    padding-block: 30px;
   }
   .pt-\[2\] {
     padding-top: 2;
@@ -909,6 +924,9 @@
   .pt-\[40px\] {
     padding-top: 40px;
   }
+  .pr-\[10px\] {
+    padding-right: 10px;
+  }
   .pl-\[2\] {
     padding-left: 2;
   }
@@ -917,6 +935,9 @@
   }
   .pl-\[20px\] {
     padding-left: 20px;
+  }
+  .pl-\[30px\] {
+    padding-left: 30px;
   }
   .text-center {
     text-align: center;
@@ -929,6 +950,12 @@
   }
   .text-\[2px\] {
     font-size: 2px;
+  }
+  .text-\[3px\] {
+    font-size: 3px;
+  }
+  .text-\[4px\] {
+    font-size: 4px;
   }
   .text-\[14px\] {
     font-size: 14px;
@@ -962,6 +989,9 @@
   }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[45px\] {
+    font-size: 45px;
   }
   .text-\[50px\] {
     font-size: 50px;
@@ -1050,6 +1080,12 @@
   }
   .text-\[1820\] {
     color: 1820;
+  }
+  .text-\[gray\] {
+    color: gray;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-\[w\] {
     color: w;
@@ -1408,6 +1444,16 @@
   .lg\:p-\[10px_15px\] {
     @media (width >= 64rem) {
       padding: 10px 15px;
+    }
+  }
+  .lg\:p-\[100px_0px\] {
+    @media (width >= 64rem) {
+      padding: 100px 0px;
+    }
+  }
+  .lg\:pr-\[150px\] {
+    @media (width >= 64rem) {
+      padding-right: 150px;
     }
   }
   .lg\:text-\[20px\] {
