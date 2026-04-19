@@ -1942,6 +1942,11 @@
       width: 700px;
     }
   }
+  .lg\:w-\[800px\] {
+    @media (width >= 64rem) {
+      width: 800px;
+    }
+  }
   .lg\:w-\[x\] {
     @media (width >= 64rem) {
       width: x;
@@ -2060,6 +2065,11 @@
   .lg\:p-\[50px_0\] {
     @media (width >= 64rem) {
       padding: 50px 0;
+    }
+  }
+  .lg\:p-\[50px_0px\] {
+    @media (width >= 64rem) {
+      padding: 50px 0px;
     }
   }
   .lg\:p-\[100px_0\] {
