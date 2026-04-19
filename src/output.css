@@ -978,6 +978,10 @@
     border-style: var(--tw-border-style);
     border-width: 30px;
   }
+  .border-l-\[6px\] {
+    border-left-style: var(--tw-border-style);
+    border-left-width: 6px;
+  }
   .border-dashed {
     --tw-border-style: dashed;
     border-style: dashed;
@@ -987,6 +991,9 @@
   }
   .border-\[\#111111\] {
     border-color: #111111;
+  }
+  .border-\[\#FF2424\] {
+    border-color: #FF2424;
   }
   .border-\[\#cccccc\] {
     border-color: #cccccc;
@@ -1423,6 +1430,9 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[43px\] {
+    font-size: 43px;
+  }
   .text-\[45px\] {
     font-size: 45px;
   }
@@ -1822,6 +1832,11 @@
       width: 200px;
     }
   }
+  .lg\:w-\[220px\] {
+    @media (width >= 64rem) {
+      width: 220px;
+    }
+  }
   .lg\:w-\[230px\] {
     @media (width >= 64rem) {
       width: 230px;
@@ -1850,6 +1865,11 @@
   .lg\:w-\[300x\] {
     @media (width >= 64rem) {
       width: 300x;
+    }
+  }
+  .lg\:w-\[330px\] {
+    @media (width >= 64rem) {
+      width: 330px;
     }
   }
   .lg\:w-\[350px\] {
@@ -2085,6 +2105,11 @@
   .lg\:p-\[100px_0px\] {
     @media (width >= 64rem) {
       padding: 100px 0px;
+    }
+  }
+  .lg\:pr-\[30px\] {
+    @media (width >= 64rem) {
+      padding-right: 30px;
     }
   }
   .lg\:pr-\[150px\] {
